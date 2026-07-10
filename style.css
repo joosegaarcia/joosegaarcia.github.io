@@ -39,6 +39,6 @@ button:hover{
     transform:scale(1.08);
 }
 .oscuro {
-    background: #111827;
-    color: white;
+    background: white;
+    color: black;
 }
