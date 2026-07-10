@@ -1,5 +1,6 @@
 const boton = document.getElementById("proyecto");
+const titulo = document.getElementById("titulo");
 
 boton.addEventListener("click", function () {
-    alert("🚀 ¡Bienvenido al Proyecto Fénix, José!");
+    titulo.textContent = "🚀 ¡Gracias por visitar mi web!";
 });
