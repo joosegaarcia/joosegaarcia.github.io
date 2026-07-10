@@ -1,6 +1,12 @@
-const boton = document.getElementById("proyecto");
+const botonProyecto = document.getElementById("proyecto");
+const botonModo = document.getElementById("modoOscuro");
 const titulo = document.getElementById("titulo");
+const body = document.body;
 
-boton.addEventListener("click", function () {
+botonProyecto.addEventListener("click", function () {
     titulo.textContent = "🚀 ¡Gracias por visitar mi web!";
+});
+
+botonModo.addEventListener("click", function () {
+    body.classList.toggle("oscuro");
 });
