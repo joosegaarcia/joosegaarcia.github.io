@@ -8,10 +8,13 @@ botonProyecto.addEventListener("click", function () {
 });
 
 botonModo.addEventListener("click", function () {
+
     body.classList.toggle("oscuro");
+
+    if (body.classList.contains("oscuro")) {
+        botonModo.textContent = "☀️ Modo claro";
+    } else {
+        botonModo.textContent = "🌙 Modo oscuro";
+    }
+
 });
-if (body.classList.contains("oscuro")) {
-    botonModo.textContent = "☀️ Modo claro";
-} else {
-    botonModo.textContent = "🌙 Modo oscuro";
-}
